@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            background-color: rgb(56, 54, 50);
+            color: rgb(20, 18, 16);
+            text-align: center;
+        }
+        #bgvideo{
+            position:fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100vw;
+            min-height: 100vh;
+            object-fit: cover;
+            z-index: -1;
+            opacity: 0.2;
+        }
+        header {
+            background-color: rgb(13, 11, 14);
+            color: beige;
+            padding: 10px;
+            text-align: center;
+        }
+        header a {
+            color: lavenderblush;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .menu-section{
+            padding: 40 20px;
+            text-decoration: black;
+        }
+        .menu-section h2{
+            font-size: 30px;
+            margin: 20px 0;
+            display: inline-block;
+            color: white;
+        }
+        .menu-grid{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(220px, 1fr));
+            gap:30px;
+            margin-top: 20px;
+            text-decoration: black;
+        }
+        .menu-item{
+            background: rgb(229, 221, 221);
+            border: 2px solid black;
+            padding: 15px;
+            border-radius: 20px;
+            box-shadow: 0 3px 6px black;
+            forced-color-adjust: black;
+        }
+        .menu-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .menu-item:hover{
+            transform: scale(1.1);
+        }
+        .menu-item h3,p{
+            font-size: x-large;
+        }
+        footer{
+            background-color: rgb(23, 14, 25);
+            color: beige;
+            padding: 3px;
+            text-align: center;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+</head>
+<body>
+    <video autoplay muted loop id = "bgvideo">
+         <source src="bachv.mp4" type="video/mp4">
+    </video>
+    <header>
+        <h1>Welcome to Rammi-Mart</h1>
+        <p>All your needs in one shop..</p>
+        <nav>
+            <a href="">Items</a>
+            <a href="">Contact</a>
+            <a href="">Services</a>
+        </nav>
+    </header>
+    <div class="menu-section">
+        <h2>Grocery</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <a href="cooldrinks.html"><img src="https://images.pexels.com/photos/12940867/pexels-photo-12940867.jpeg" alt=""></a>
+                <h3>Cooldrinks</h3>
+                <p>very sweet Items</p>
+                <span>$5.6</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/33715/cake-pops-pastries-cake-sweet.jpg" alt="">
+                <h3>Chocolates</h3>
+                <p>very sweet Items</p>
+                <span>$4.5</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/1362534/pexels-photo-1362534.jpeg" alt="">
+                <h3>Ice Creams</h3>
+                <p>very sweet Items</p>
+                <span>$6.6</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/960540/pexels-photo-960540.jpeg" alt="">
+                <h3>Cakes</h3>
+                <p>very sweet Items</p>
+                <span>$3.6</span>
+            </div>
+        </div>
+        <h2>Electroncis</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg" alt="">
+                <h3>Mobile Phones</h3>
+                <p>very Good Quality</p>
+                <span>$15.6</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/205421/pexels-photo-205421.jpeg" alt="">
+                <h3>Laptop</h3>
+                <p>very Good Quality</p>
+                <span>$14.5</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/3825517/pexels-photo-3825517.jpeg" alt="">
+                <h3>Buds</h3>
+                <p>very Good Quality</p>
+                <span>$8.6</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/110471/pexels-photo-110471.jpeg" alt="">
+                <h3>Smart Watches</h3>
+                <p>very Good Quality</p>
+                <span>$7.6</span>
+            </div>
+        </div>
+        <h2>Dresses</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://cdn0.weddingwire.in/article/1188/3_2/1280/jpg/68811-pattu-half-sareesstudio2-0-lead.webp" alt="">
+                <h3>Half Saree</h3>
+                <p>Good Items</p>
+                <span>$4.3</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/603022/pexels-photo-603022.jpeg" alt="">
+                <h3>jeans</h3>
+                <p>Good Items</p>
+                <span>$2.5</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/1057313/pexels-photo-1057313.jpeg" alt="">
+                <h3>Kurthis</h3>
+                <p>Good Items</p>
+                <span>$3.2</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/4723162/pexels-photo-4723162.jpeg" alt="">
+                <h3>Tops</h3>
+                <p>Good Items</p>
+                <span>$2.1</span>
+            </div>
+        </div>
+        <h2>Footwear</h2>
+        <div class="menu-grid">
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/267326/pexels-photo-267326.jpeg" alt="">
+                <h3>White Shoes</h3>
+                <p>Quality</p>
+                <span>$1.6</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/336372/pexels-photo-336372.jpeg" alt="">
+                <h3>Heals</h3>
+                <p>Quality</p>
+                <span>$1.5</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/19090/pexels-photo.jpg" alt="">
+                <h3>Shoes</h3>
+                <p>Quality</p>
+                <span>$1.6</span>
+            </div>
+            <div class="menu-item">
+                <img src="https://images.pexels.com/photos/1445696/pexels-photo-1445696.jpeg" alt="">
+                <h3>Trendy Shoes</h3>
+                <p>Quality</p>
+                <span>$2.6</span>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Rammi-mark Shopping | More</p>
+        <p>Follow us on <a href="www.Rammi-mart.com">www.Rammi-mart.com</a></p>
+    </footer>
+</body>
+</html>
