@@ -1,0 +1,1 @@
+This is a simple personal portfolio web page created using HTML. It includes sections like an introduction, about me, projects, and contact information. The design is clean and easy to navigate, making it a great starting point to showcase your skills and work online.
